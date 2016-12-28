@@ -22,6 +22,8 @@ on website load.
 the chatroom.
 
 ## Deploy to heroku
+```
 $ heroku create
 $ git push heroku master
 $ heroku open
+```
