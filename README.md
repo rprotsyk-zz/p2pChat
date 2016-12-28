@@ -6,9 +6,6 @@ A simple chat demo for socket.io
 ## How to use
 
 ```
-$ cd socket.io
-$ npm install
-$ cd examples/chat
 $ npm install
 $ npm start
 ```
@@ -23,3 +20,8 @@ on website load.
 - Users can type chat messages to the chat room.
 - A notification is sent to all users when a user joins or leaves
 the chatroom.
+
+## Deploy to heroku
+$ heroku create
+$ git push heroku master
+$ heroku open
